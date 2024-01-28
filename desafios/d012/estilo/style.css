@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    min-height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+header > h1{
+    color: white;
+    font-variant: small-caps;
+    font-size: 10vw;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.477);
+    margin-bottom: 20px;
+}
+
+header > p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.377);
+}
+
+body {
+    background-color: darkgrey;
+}
+
+section {
+    color:black;
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+
+section#img1 {
+    position: relative;
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img1 > p {
+    background-color: white;
+    width: 300px;
+}
+
